@@ -1,0 +1,142 @@
+---
+title: "Bản đề xuất"
+date: "`r Sys.Date()`"
+weight: 2
+chapter: false
+pre: " <b> 2. </b> "
+---
+
+## 🐦 Đề xuất: Flyora – Nền tảng Thương mại Điện tử cho Người yêu Chim
+
+📄 **[Tải Xuống Đề xuất PDF Đầy đủ](/Proposal%20FLYORA.pdf)**
+
+### 1. Tóm tắt Điều hành
+Flyora là một ứng dụng web chuyên biệt được thiết kế để phục vụ những người đam mê chim cảnh trên khắp Việt Nam. Nền tảng cung cấp các sản phẩm được tuyển chọn như thức ăn chim, đồ chơi, lồng và phụ kiện trang trí phù hợp với các loài như Chào Mào, Vẹt, Yến Phụng và Chích Chòe. Được xây dựng với công nghệ web hiện đại và lưu trữ trên AWS, Flyora đảm bảo khả năng mở rộng, hiệu suất và truy cập an toàn. Nền tảng hướng tới trở thành điểm đến hàng đầu cho việc chăm sóc và trang trí chim, kết hợp thương mại điện tử với cá nhân hóa và tương tác cộng đồng.
+
+---
+
+### 2. Phát biểu Vấn đề
+**Thách thức Hiện tại**:
+- Không có nền tảng tập trung cho các sản phẩm chuyên biệt về chim
+- Các cửa hàng thú cưng chung thiếu khuyến nghị theo từng loài
+- Giao diện người dùng lỗi thời và khả năng đáp ứng di động kém
+- Khả năng mở rộng backend và tìm kiếm hạn chế
+
+**Giải pháp Đề xuất**:
+Flyora mang đến trải nghiệm mua sắm theo danh mục đáp ứng với xác thực người dùng an toàn, lọc sản phẩm thời gian thực và backend có thể mở rộng. Hỗ trợ cả người dùng desktop và di động, với kế hoạch tương lai cho khuyến nghị được hỗ trợ AI và chatbot.
+
+---
+
+### 3. Kiến trúc Giải pháp
+#### 📄 Sơ đồ Kiến trúc Hệ thống
+![Sơ đồ Kiến trúc Hệ thống](https://phucqb.sirv.com/Images/4a27331b2b7fa421fd6e.jpg)
+
+#### 🧩 Frontend (Tầng Web)
+* **Amazon S3**: Lưu trữ web tĩnh cho tài sản frontend
+* **CloudFront**: CDN cho phân phối nội dung toàn cầu
+* **Thiết kế đáp ứng**: Giao diện thân thiện với di động
+
+#### 🔐 Xác thực & Bảo mật
+* **IAM**: Quản lý danh tính và truy cập
+* **CloudWatch & AWS X-Ray**: Giám sát và theo dõi phân tán
+
+#### 🔄 Dịch vụ Backend (Tầng Ứng dụng)
+* **Amazon API Gateway**: Quản lý API RESTful
+* **AWS Lambda Functions**: 
+  - Xử lý chatbot
+  - Xử lý API
+  - Tự động hóa nhập
+* **Amazon Bedrock**: Mô hình nhúng và LLM cho các tính năng AI
+
+#### 📦 Dữ liệu & Lưu trữ (Tầng Dữ liệu)
+* **Amazon RDS for PostgreSQL**: Cơ sở dữ liệu quan hệ
+* **DynamoDB**: Cơ sở dữ liệu NoSQL
+* **Amazon S3**: Lưu trữ dữ liệu
+
+#### 🔧 CI/CD & Phát triển
+* **GitLab**: Kiểm soát phiên bản và kích hoạt pipeline CI/CD
+* **AWS CodeBuild**: Quy trình xây dựng tự động
+* **AWS CodePipeline**: Tích hợp và triển khai liên tục
+
+---
+
+### 4. Triển khai Kỹ thuật
+
+#### Các Giai đoạn:
+1. **Học AWS & Thiết lập** – Thành thạo các dịch vụ AWS và thiết kế kiến trúc
+2. **Phát triển & Tích hợp** – Xây dựng frontend và kết nối backend AWS
+3. **Kiểm thử & Triển khai** – Hoàn thành kiểm thử và phát hành sản xuất
+
+#### Tháng 1 - Tập trung Học AWS:
+- **Tuần 1-2**: Cơ bản AWS (S3, Lambda, API Gateway, DynamoDB)
+- **Tuần 3**: Dịch vụ nâng cao (Bedrock, OpenSearch)
+- **Tuần 4**: Thiết kế kiến trúc và mô hình hóa cơ sở dữ liệu với MySQL Workbench
+
+#### Yêu cầu Kỹ thuật:
+- Thành thạo dịch vụ AWS cho kiến trúc serverless
+- Phát triển frontend với lưu trữ tĩnh S3
+- DynamoDB cho quản lý dữ liệu NoSQL
+- GitHub cho kiểm soát phiên bản và tích hợp CI/CD
+
+---
+
+### 5. Lịch trình & Cột mốc
+
+| Giai đoạn               | Thời gian | Cột mốc Chính                                                                  |
+| ----------------------- | --------- | ------------------------------------------------------------------------------ |
+| **Tháng 1: Học AWS**    | 4 tuần    | • Thành thạo cơ bản AWS<br>• Thiết kế kiến trúc<br>• Tạo lược đồ cơ sở dữ liệu |
+| **Tháng 2: Phát triển** | 4 tuần    | • Hoàn thành UI frontend<br>• Xây dựng hàm Lambda<br>• Cấu hình API Gateway    |
+| **Tháng 3: Tích hợp**   | 4 tuần    | • Tích hợp hệ thống đầy đủ<br>• Hoàn thành kiểm thử<br>• Triển khai sản xuất   |
+
+---
+
+### 6. Ước tính Chi phí
+
+| Dịch vụ                        | Chi phí Hàng tháng | Chi phí Hàng năm | Chi tiết tính toán                                                                                  |
+| ------------------------------ | ------------------ | ---------------- | --------------------------------------------------------------------------------------------------- |
+| Amazon S3                      | $0.15              | $1.8             | - Lưu trữ: 1GB                                                                                      |
+| AWS Lambda                     | $0.00              | $0.00            | - 10.000 request<br>- 512 MB Ephemeral storage<br>- 256 MB Memory<br>- Duration: 150ms              |
+| Amazon API Gateway (REST API)  | $0.04              | $0.48            | - 10.000 request                                                                                    |
+| DynamoDB (on-demand capacity)  | $0.00              | $0.00            | - Data storage size: 0.01 GB<br>- Number of writes: 0.01 million<br>- Number of reads: 0.02 million |
+| X-ray                          | $0.01              | $0.12            | - 10.000 request<br>- Sampling rate: 10%<br>- Traces retrieved per query: 20                        |
+| CloudWatch & Logs              | $0.00              | $0.00            |                                                                                                     |
+| Amazon Bedrock (Embedding/LLM) | $3.49              | $41.88           | - Cohere Embed Multilingual (83%), Claude 3 Haiku (17%)<br>- 3.000 request                          |
+| Amazon RDS for PostgreSQL      | $21.01             | $252.12          | - db.t4g.micro<br>- Storage: 20GB                                                                   |
+| Data transfer                  | $0.00              | $0.00            | - Free tier: 1 GB                                                                                   |
+| CloudFront                     | $0.10              | $1.2             | - 10.000 request<br>- Data Transfer Out: Free tier 1 GB (global)                                    |
+| CodePipeline                   | $0.00              | $0.00            | - 1 pipeline                                                                                        |
+| CodeBuild                      | $2.52              | $30.24           | - arm1.2xlarge <br> - 14 builds in a month <br> - Average build duration: 2 minutes                 |
+| VPC                            | $43.07             | $516.84          | - Hourly Charge: 24h<br>- Data Processing: 3.000 request<br> - 1 Nat gateway                        |
+| **Tổng Ước tính**              | **$70.39**         | **$844.68**      |                                                                                                     |
+
+Lưu ý: Chi phí phần cứng không áp dụng do Flyora là nền tảng web hoàn toàn.
+
+---
+
+### 7. Đánh giá Rủi ro
+
+| Rủi ro               | Tác động   | Xác suất   | Chiến lược Giảm thiểu                              |
+| -------------------- | ---------- | ---------- | -------------------------------------------------- |
+| Lambda cold starts   | Trung bình | Trung bình | Đồng thời được cung cấp cho các hàm quan trọng     |
+| DynamoDB throttling  | Trung bình | Thấp       | Tự động mở rộng và thiết kế khóa phân vùng phù hợp |
+| RDS downtime         | Trung bình | Thấp       | Triển khai Multi-AZ, sao lưu tự động               |
+| Vượt chi phí         | Thấp       | Thấp       | Giám sát với AWS Budgets và cảnh báo CloudWatch    |
+| Giới hạn API Bedrock | Trung bình | Thấp       | Giám sát sử dụng, dự phòng kết quả cache           |
+
+---
+
+### 8. Kết quả Mong đợi
+
+#### Cải tiến Kỹ thuật:
+* Giao diện người dùng đáp ứng, thân thiện với di động
+* Xác thực người dùng an toàn và quản lý vai trò (IAM)
+* Backend có thể mở rộng với Lambda/API Gateway
+- Lọc sản phẩm thời gian thực và hỗ trợ chatbot
+- Tính năng AI qua Bedrock (Nhúng/LLM)
+- Lưu trữ dữ liệu mạnh mẽ với RDS, DynamoDB, S3
+
+#### Giá trị Kinh doanh:
+- Nền tảng tập trung cho người yêu chim ở Việt Nam
+- Giảm phụ thuộc vào các cửa hàng thú cưng chung
+- Nền tảng cho các tính năng AI và mở rộng cộng đồng tương lai
+- Tiềm năng cho ứng dụng di động và tích hợp chatbot
