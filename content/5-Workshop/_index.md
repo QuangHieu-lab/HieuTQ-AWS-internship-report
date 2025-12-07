@@ -27,7 +27,7 @@ The workshop is divided into group roles for parallel development:
 
 ### System Architecture
 
-![Flyora Architecture](/images/2-Proposal/System-architecture-diagram.png)
+![System Architecture Diagram](https://phucqb.sirv.com/Images/4a27331b2b7fa421fd6e.jpg)
 
 ---
 

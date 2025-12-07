@@ -7,7 +7,7 @@ pre: " <b> 2. </b> "
 ---
 ## 🐦 Proposal: Flyora – E-commerce Platform for Bird Lovers
 
-📄 **[Download Full Proposal PDF](/Proposal%20FLYORA.pdf)**
+📄 **[Download Full Proposal PDF](/files/Proposal%20FLYORA.pdf)**
 
 ### 1. Executive Summary
 Flyora is a specialized web application designed to serve bird enthusiasts across Vietnam. It offers curated products such as bird food, toys, cages, and decorative accessories tailored to species like Chào Mào, Vẹt, Yến Phụng, and Chích Chòe. Built with modern web technologies and hosted on AWS, Flyora ensures scalability, performance, and secure access. The platform aims to become the go-to destination for bird care and ornamentation, combining e-commerce with personalization and community engagement.
@@ -15,7 +15,7 @@ Flyora is a specialized web application designed to serve bird enthusiasts acros
 ---
 
 ### 2. Problem Statement
-**Current Challenges**:
+**Current Challenges**: 
 - No centralized platform for bird-specific products
 - Generic pet stores lack species-specific recommendations
 - Poor mobile responsiveness and outdated UI in existing platforms
