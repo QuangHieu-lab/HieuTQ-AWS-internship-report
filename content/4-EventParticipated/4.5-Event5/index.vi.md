@@ -45,7 +45,7 @@ pre: " <b> 4.5. </b> "
 ![The Introduction of Cloudfront session](/images/4-Event/Cloudfront1.jpg)  
 *Giới thiệu về CloudFront và cách hoạt động*
 
-![Learn AWS WAF service session](/images/4-Event/WAF3.png)  
+![Learn AWS WAF service session](/images/4-Event/WAF3.jpg)  
 *Tìm hiểu sâu về các dịch vụ bảo mật của AWS*
 
 ![The introduction of Workshop ](/images/4-Event/Workshop1.jpg)  

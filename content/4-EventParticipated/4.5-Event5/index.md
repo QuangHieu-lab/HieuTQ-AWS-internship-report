@@ -39,7 +39,7 @@ pre: " <b> 4.5. </b> "
 *The List of Event*
 ![The Introduction of Cloudfront session](/images/4-Event/Cloudfront1.jpg)
 *Explore more about Cloudfront and how it works*
-![Learn AWS WAF service session](/images/4-Event/WAF3.png)
+![Learn AWS WAF service session](/images/4-Event/WAF3.jpg)
 *Explore deeply about AWS security services*
 ![The introduction of Workshop ](/images/4-Event/Workshop1.jpg)
 *Learn And practice with AWS workshop*
