@@ -74,12 +74,12 @@ pre: " <b> 4.4. </b> "
 - Tham dự **DevOps trên AWS**, tôi đã học thêm nhiều kiến thức về DevOps và các dịch vụ AWS, hiểu cách chúng hoạt động và lợi ích để cải thiện dự án của mình  
 
 #### Một số hình ảnh sự kiện
-![Giới thiệu về DevOps](/images/4-Event/DevOps_1.jpg)
+![Giới thiệu về DevOps](/images/4-Event/Devops_1.jpg)
 *Phiên chào đón và giới thiệu về DevOps*  
-![Các chỉ số DevOps](/images/4-Event/DevOps_2.jpg)
+![Các chỉ số DevOps](/images/4-Event/Devops_2.jpg)
 *Tìm hiểu thêm về DevOps và những điều cần biết*  
-![Học và thực hành DevOps](/images/4-Event/DevOps_3.jpg)
+![Học và thực hành DevOps](/images/4-Event/Devops_3.jpg)
 *Khám phá sâu và thực hành với DevOps*  
-![Giới thiệu về Monitoring và Observability](/images/4-Event/DevOps_4.jpg)
+![Giới thiệu về Monitoring và Observability](/images/4-Event/Devops_4.jpg)
 *Tìm hiểu CloudFormation và AWS X-Ray*
 > Sự kiện giúp tôi hiểu thêm về DevOps và thử nghiệm các dịch vụ mới trên AWS

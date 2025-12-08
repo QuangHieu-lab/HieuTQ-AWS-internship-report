@@ -71,12 +71,12 @@ pre: " <b> 4.4. </b> "
 - Attending  the **​DevOps on AWS** I gained more knowledge about Devops and other services in AWS, I can know how they work and the benefits that could help me improve my project
 
 #### Some event photos
-![The introduction of DevOps](/images/4-Event/DevOps_1.jpg)
+![The introduction of DevOps](/images/4-Event/Devops_1.jpg)
 *The welcome session and introduction about Devops*
-![The DevOps metrics](/images/4-Event/DevOps_2.jpg)
+![The DevOps metrics](/images/4-Event/Devops_2.jpg)
 *Explore more about devops and things we have to know*
-![Learn more about DevOps](/images/4-Event/DevOps_3.jpg)
+![Learn more about DevOps](/images/4-Event/Devops_3.jpg)
 *Explore deeply and pracice with devops*
-![The introduction of monitoring and observability](/images/4-Event/DevOps_4.jpg)
+![The introduction of monitoring and observability](/images/4-Event/Devops_4.jpg)
 *Learn about cloudformation and AWS x-ray*
 > The event help me know more about devops and try new services in AWS
