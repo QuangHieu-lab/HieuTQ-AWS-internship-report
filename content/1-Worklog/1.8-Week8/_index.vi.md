@@ -10,13 +10,13 @@ pre: " <b> 1.8. </b> "
 ### Mục tiêu tuần 8:
 
 * Nắm vững kiến thức cơ bản về AWS, bao gồm các nhóm dịch vụ chính: Tính toán (Compute), Lưu trữ (Storage), Mạng (Networking), và Cơ sở dữ liệu (Database).  
-* Học cách điều hướng và sử dụng hiệu quả **AWS Management Console**.  
-* Thực hành quản lý **IAM users, roles, groups, và policies** để kiểm soát quyền truy cập và phân quyền.  
-* Học cách sử dụng **AWS CLI** để thực hiện các thao tác quản lý tài nguyên.  
-* Khám phá và thực hành làm việc với các dịch vụ **S3, EC2, RDS, VPC, và CloudTrail**.  
-* Tìm hiểu về **bảo mật và mã hóa** thông qua **Key Management Service (KMS)**.  
-* Trải nghiệm sử dụng **Athena** để truy vấn và phân tích dữ liệu lưu trữ trong **S3**.  
-* Học cách **triển khai ứng dụng**, **sao lưu**, và **dọn dẹp tài nguyên AWS** một cách hiệu quả.  
+* Học cách điều hướng và sử dụng hiệu quả AWS Management Console.  
+* Thực hành quản lý IAM users, roles, groups, và policies** để kiểm soát quyền truy cập và phân quyền.  
+* Học cách sử dụng AWS CLI để thực hiện các thao tác quản lý tài nguyên.  
+* Khám phá và thực hành làm việc với các dịch vụ S3, EC2, RDS, VPC, và CloudTrail.  
+* Tìm hiểu về bảo mật và mã hóa thông qua Key Management Service (KMS).  
+* Trải nghiệm sử dụng Athena để truy vấn và phân tích dữ liệu lưu trữ trong S3.  
+* Học cách triển khai ứng dụng, sao lưu, và dọn dẹp tài nguyên AWS một cách hiệu quả.  
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                                                                                                                                                                  | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                                                                                  |
