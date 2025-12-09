@@ -25,8 +25,8 @@ pre: " <b> 1.7. </b> "
 | 3   | - Tìm hiểu về bảo mật trong AWS: <br>&emsp; + AWS Secrets Manager <br>&emsp; + AWS Systems Manager <br>- Bảo vệ mạng và ứng dụng: <br>&emsp; + AWS Shield và AWS WAF <br>- Bảo vệ dữ liệu: <br>&emsp; + AWS KMS, Macie, ACM <br>- Phát hiện và phản ứng: <br>&emsp; + AWS Inspector, GuardDuty, Detective, Security Hub                                                                                                                                        | 20/10/2025   | 21/10/2025      | <https://render.skillbuilder.aws/?module_id=TNAPD78T9R%3A001.000.000&product_id=8D79F3AVR7%3A002.000.000&registration_id=7180ba42-ac1f-560b-8b6b-a28ec10a9d43&navigation=digital> |
 | 4   | - Khám phá giám sát, tuân thủ và quản trị trong AWS Cloud: <br>&emsp; + Tìm hiểu về bảo mật, giám sát và đảm bảo tuân thủ hệ thống <br>- Học về AWS CloudWatch: <br>&emsp; + CloudWatch Metric <br>&emsp; + CloudWatch Alarm <br>&emsp; + CloudWatch Dashboard <br>&emsp; + CloudWatch Log                                                                                                                                                                     | 21/10/2025   | 22/10/2025      | <https://render.skillbuilder.aws/?module_id=HU3PMBK47Y%3A001.000.000&product_id=8D79F3AVR7%3A002.000.000&registration_id=7180ba42-ac1f-560b-8b6b-a28ec10a9d43&navigation=digital> |
 | 5   | - Tiếp tục học về Monitoring, Compliance và Governance trong AWS Cloud: <br>&emsp; + Học về CloudTrail và các dịch vụ liên quan (Service Events, Logs, Insights) <br>- AWS Artifact: <br>&emsp; + Tìm hiểu về Artifact Agreements và Reports <br>- AWS Organizations <br>- Quản trị và điều hành (Governance): <br>&emsp; + AWS Control Tower <br>&emsp; + AWS Service Catalog <br>&emsp; + AWS License Manager <br>- Khám phá AWS Health và Trusted Advisor** | 22/10/2025   | 23/10/2025      | <https://render.skillbuilder.aws/?module_id=HU3PMBK47Y%3A001.000.000&product_id=8D79F3AVR7%3A002.000.000&registration_id=7180ba42-ac1f-560b-8b6b-a28ec10a9d43&navigation=digital> |
+| 6   | - Học về Pricing và Support: <br>&emsp; + Các khái niệm về giá: Pay as you go, Save when you commit, Pay less by using more <br>- Các dịch vụ định giá và thanh toán của AWS: <br>&emsp; + AWS Budgets <br>&emsp; + AWS Cost Explorer <br>&emsp; + AWS Pricing Calculator | 22/10/2025 | 23/10/2025 | <https://render.skillbuilder.aws/?module_id=UGUXWW6BEZ%3A001.000.000&product_id=8D79F3AVR7%3A002.000.000&registration_id=7180ba42-ac1f-560b-8b6b-a28ec10a9d43&navigation=digital> |
 
-| 6   |- Học về Pricing và Support: <br>&emsp; + Các khái niệm về giá: Pay as you go, Save when you commit, Pay less by using more <br>- **Các dịch vụ định giá và thanh toán của AWS: <br>&emsp; + AWS Budgets <br>&emsp; + AWS Cost Explorer <br>&emsp; + AWS Pricing Calculator | 22/10/2025 | 23/10/2025 | <https://render.skillbuilder.aws/?module_id=UGUXWW6BEZ%3A001.000.000&product_id=8D79F3AVR7%3A002.000.000&registration_id=7180ba42-ac1f-560b-8b6b-a28ec10a9d43&navigation=digital> |
 
 
 ### Kết quả đạt được tuần 7:
@@ -43,6 +43,6 @@ pre: " <b> 1.7. </b> "
 * Thực hiện các thao tác cơ bản trên CLI như kiểm tra cấu hình, xem danh sách region, truy xuất thông tin EC2 và quản lý key pairs.  
 * Phát triển khả năng sử dụng song song **AWS Console và CLI** để quản lý dịch vụ AWS hiệu quả hơn.
 * Có khả năng kết nối giữa giao diện web và CLI để quản lý tài nguyên AWS song song.
-* ...
+
 
 
