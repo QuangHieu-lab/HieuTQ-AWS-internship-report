@@ -17,7 +17,6 @@ Các thành phần triển khai:
 - **Frontend**: Lưu trữ & phân phối giao diện qua **S3 + CloudFront**
 - **Backend API**: Xử lý logic nghiệp vụ qua **API Gateway + AWS Lambda**
 - **Cơ sở dữ liệu**: Quản lý dữ liệu sản phẩm / đơn hàng bằng **DynamoDB + S3**
-- **Xác thực người dùng**: Thực hiện thông qua **Amazon Cognito**
 - **Chatbot**: Hỗ trợ tư vấn sản phẩm, tích hợp vào UI (Nhóm AI thực hiện)
 
 Workshop được phân chia theo vai trò nhóm để dễ triển khai song song:

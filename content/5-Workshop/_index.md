@@ -17,7 +17,6 @@ Components to be deployed:
 - **Frontend**: Store & deliver UI via **S3 + CloudFront**
 - **Backend API**: Handle business logic with **API Gateway + AWS Lambda**
 - **Database**: Manage product / order data using **DynamoDB + S3**
-- **User Authentication**: Implemented via **Amazon Cognito**
 - **Chatbot**: Product consultation assistant integrated into UI (handled by AI Team)
 
 The workshop is divided into group roles for parallel development:
